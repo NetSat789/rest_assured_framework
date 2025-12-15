@@ -90,7 +90,7 @@ public class UserTests2 extends BaseClass
 	public void testDeleteUserByName() {
 
 		Response response = userEndpoints2.deleteUser(this.userPayload.getUsername());
-		Assert.assertEquals(response.getStatusCode(), 200);
+		Assert.assertEquals(response.getStatusCode(), 204);
 
 	}
 
