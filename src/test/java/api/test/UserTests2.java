@@ -60,7 +60,7 @@ public class UserTests2 extends BaseClass
 		Response response = userEndpoints2.readUser(this.userPayload.getUsername());
 		response.then().log().all();
 
-		Assert.assertEquals(response.getStatusCode(), 200);
+		Assert.assertEquals(response.getStatusCode(), 201);
 
 	}
 
@@ -75,7 +75,7 @@ public class UserTests2 extends BaseClass
 		Response response = userEndpoints2.updateUser(this.userPayload.getUsername(), userPayload);
 		response.then()
 		.log().all(); // .body().statusCode(200); we also wright validation here
-		Assert.assertEquals(response.getStatusCode(), 200);
+		Assert.assertEquals(response.getStatusCode(), 201);
 
 		// Checking updated data 
 
@@ -90,7 +90,7 @@ public class UserTests2 extends BaseClass
 	public void testDeleteUserByName() {
 
 		Response response = userEndpoints2.deleteUser(this.userPayload.getUsername());
-		Assert.assertEquals(response.getStatusCode(), 200);
+		Assert.assertEquals(response.getStatusCode(), 201);
 
 	}
 
