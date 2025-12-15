@@ -60,7 +60,7 @@ public class UserTests2 extends BaseClass
 		Response response = userEndpoints2.readUser(this.userPayload.getUsername());
 		response.then().log().all();
 
-		Assert.assertEquals(response.getStatusCode(), 201);
+		Assert.assertEquals(response.getStatusCode(), 200);
 
 	}
 
