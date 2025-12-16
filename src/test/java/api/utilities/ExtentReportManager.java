@@ -28,10 +28,10 @@ public class ExtentReportManager implements ITestListener {
         int uniqueId = new Random().nextInt(9000) + 1000;
 
         // Report Path
-//        String reportPath = System.getProperty("user.dir")
-//                + "/ExtentReports/TestReport_" + uniqueId + "_" + timestamp + ".html";
+        String reportPath = System.getProperty("user.dir")
+                + "/ExtentReports/TestReport_" + uniqueId + "_" + timestamp + ".html";
 
-        String reportPath = System.getProperty("user.dir") + "/ExtentReports/TestReport.html";
+//        String reportPath = System.getProperty("user.dir") + "/ExtentReports/TestReport.html";
 
         // Spark Reporter
         ExtentSparkReporter spark = new ExtentSparkReporter(reportPath);
