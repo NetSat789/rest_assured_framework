@@ -27,9 +27,20 @@ public class ExtentReportManager implements ITestListener {
         // Dynamic 4-digit ID
         int uniqueId = new Random().nextInt(9000) + 1000;
 
+        String reportPath;
+
+        if(System.getenv("JENKINS_HOME") != null) {
+            // Running on Jenkins
+            reportPath = System.getProperty("user.dir") + "\\ExtentReports2\\TestReport_" + uniqueId + "_" + timestamp + ".html";
+        } else {
+            // Running locally in Eclipse
+            reportPath = "C:\\Users\\mnetk\\eclipse-workspace\\rest_assured_framework\\ExtentReports2\\TestReport_" 
+                         + uniqueId + "_" + timestamp + ".html";
+        }
+
         
-        String reportPath = "C:\\Users\\mnetk\\eclipse-workspace\\rest_assured_framework\\ExtentReports2"
-                + "\\TestReport_" + uniqueId + "_" + timestamp + ".html";
+//        String reportPath = "C:\\Users\\mnetk\\eclipse-workspace\\rest_assured_framework\\ExtentReports2"
+//                + "\\TestReport_" + uniqueId + "_" + timestamp + ".html";
 
         // Report Path
 //        String reportPath = System.getProperty("user.dir")

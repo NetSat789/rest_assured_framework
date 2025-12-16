@@ -601,3 +601,32 @@
 2025-12-16 21:14:51 INFO  api.utilities.TestListener - Total Passed: 14
 2025-12-16 21:14:51 INFO  api.utilities.TestListener - Total Failed: 0
 2025-12-16 21:14:51 INFO  api.utilities.TestListener - Total Skipped: 0
+2025-12-16 21:26:11 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\mnetk\eclipse-workspace\rest_assured_framework\testng0extent.xml"
+2025-12-16 21:26:11 TRACE org.testng.internal.Graph - [Graph] ADDING NODE UserTests.setupData()[pri:0, instance:null] 1651425096
+2025-12-16 21:26:11 TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+2025-12-16 21:26:11 TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2025-12-16 21:26:11 TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2025-12-16 21:26:11 TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2025-12-16 21:26:11 TRACE org.testng.internal.Graph - [Graph] ADDING NODE UserTests.testUpdateUserByName()[pri:3, instance:api.test.UserTests@60cf80e7] 315063298
+2025-12-16 21:26:11 TRACE org.testng.internal.Graph - [Graph] ADDING NODE UserTests.testCreateUser()[pri:1, instance:api.test.UserTests@60cf80e7] 2118755729
+2025-12-16 21:26:11 TRACE org.testng.internal.Graph - [Graph] ADDING NODE UserTests.testDeleteUserByName()[pri:4, instance:api.test.UserTests@60cf80e7] -955136476
+2025-12-16 21:26:11 TRACE org.testng.internal.Graph - [Graph] ADDING NODE UserTests.testGetUserByName()[pri:2, instance:api.test.UserTests@60cf80e7] -1464406743
+2025-12-16 21:26:11 TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+2025-12-16 21:26:11 TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2025-12-16 21:26:11 TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2025-12-16 21:26:11 TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2025-12-16 21:26:11 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\mnetk\eclipse-workspace\rest_assured_framework\testng0extent.xml
+
+2025-12-16 21:26:12 INFO  api.utilities.TestListener - >>> STARTING TEST: testCreateUser
+2025-12-16 21:26:15 INFO  api.utilities.TestListener - ✔ TEST PASSED: testCreateUser
+2025-12-16 21:26:15 INFO  api.utilities.TestListener - >>> STARTING TEST: testGetUserByName
+2025-12-16 21:26:17 INFO  api.utilities.TestListener - ✔ TEST PASSED: testGetUserByName
+2025-12-16 21:26:17 INFO  api.utilities.TestListener - >>> STARTING TEST: testUpdateUserByName
+2025-12-16 21:26:20 INFO  api.utilities.TestListener - ✔ TEST PASSED: testUpdateUserByName
+2025-12-16 21:26:20 INFO  api.utilities.TestListener - >>> STARTING TEST: testDeleteUserByName
+2025-12-16 21:26:22 INFO  api.utilities.TestListener - ✔ TEST PASSED: testDeleteUserByName
+2025-12-16 21:26:22 INFO  api.utilities.TestListener - 🏁 ALL TESTS FINISHED for: Test
+2025-12-16 21:26:22 INFO  api.utilities.TestListener - Total Passed: 4
+2025-12-16 21:26:22 INFO  api.utilities.TestListener - Total Failed: 0
+2025-12-16 21:26:22 INFO  api.utilities.TestListener - Total Skipped: 0
