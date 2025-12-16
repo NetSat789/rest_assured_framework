@@ -83,6 +83,7 @@ public class UserTests2 extends BaseClass
 		responseafterUpdate.
 		then().log().all();
 		Assert.assertEquals(responseafterUpdate.getStatusCode(), 200);
+		Assert.assertEquals(responseafterUpdate.getStatusCode(), 200);
 
 	}
 
