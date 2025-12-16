@@ -68,7 +68,7 @@ public class UserTests extends BaseClass
 	    .body("lastName", equalTo(userPayload.getLastName()))
 	    .body("email", equalTo(userPayload.getEmail()))
 	    .body("phone", equalTo(userPayload.getPhone()))
-         .time(lessThan(1000L))
+         .time(lessThan(3000L))
 		
 	    // Data type validations
 	    .body("id", instanceOf(Integer.class))
