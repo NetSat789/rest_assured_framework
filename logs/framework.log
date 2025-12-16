@@ -22,3 +22,582 @@
 2025-12-13 22:19:21 INFO  api.utilities.TestListener - Total Passed: 4
 2025-12-13 22:19:21 INFO  api.utilities.TestListener - Total Failed: 0
 2025-12-13 22:19:21 INFO  api.utilities.TestListener - Total Skipped: 0
+2025-12-16 20:49:56 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\mnetk\eclipse-workspace\rest_assured_framework\testng0extent.xml"
+2025-12-16 20:49:56 TRACE org.testng.internal.Graph - [Graph] ADDING NODE UserTests2.setupData()[pri:0, instance:null] -991665438
+2025-12-16 20:49:56 TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+2025-12-16 20:49:56 TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2025-12-16 20:49:56 TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2025-12-16 20:49:56 TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2025-12-16 20:49:56 TRACE org.testng.internal.Graph - [Graph] ADDING NODE UserTests.setupData()[pri:0, instance:null] 1651425096
+2025-12-16 20:49:56 TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+2025-12-16 20:49:56 TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2025-12-16 20:49:56 TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2025-12-16 20:49:56 TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2025-12-16 20:49:56 TRACE org.testng.internal.Graph - [Graph] ADDING NODE DDTests.testDeleteUserByName(java.lang.String)[pri:2, instance:api.test.DDTests@1601e47] -1077923883
+2025-12-16 20:49:56 TRACE org.testng.internal.Graph - [Graph] ADDING NODE DDTests.testPostuser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.DDTests@1601e47] 1589548580
+2025-12-16 20:49:56 TRACE org.testng.internal.Graph - [Graph] ADDING NODE UserTests2.testUpdateUserByName()[pri:3, instance:api.test.UserTests2@1eba372c] -638393375
+2025-12-16 20:49:56 TRACE org.testng.internal.Graph - [Graph] ADDING NODE UserTests2.testCreateUser()[pri:1, instance:api.test.UserTests2@1eba372c] 1173290608
+2025-12-16 20:49:56 TRACE org.testng.internal.Graph - [Graph] ADDING NODE UserTests2.testDeleteUserByName()[pri:4, instance:api.test.UserTests2@1eba372c] 480728511
+2025-12-16 20:49:56 TRACE org.testng.internal.Graph - [Graph] ADDING NODE UserTests2.testGetUserByName()[pri:2, instance:api.test.UserTests2@1eba372c] 461517528
+2025-12-16 20:49:56 TRACE org.testng.internal.Graph - [Graph] ADDING NODE UserTests.testUpdateUserByName()[pri:3, instance:api.test.UserTests@21ec5d87] -740009822
+2025-12-16 20:49:56 TRACE org.testng.internal.Graph - [Graph] ADDING NODE UserTests.testCreateUser()[pri:1, instance:api.test.UserTests@21ec5d87] 1063682609
+2025-12-16 20:49:56 TRACE org.testng.internal.Graph - [Graph] ADDING NODE UserTests.testDeleteUserByName()[pri:4, instance:api.test.UserTests@21ec5d87] -2010209596
+2025-12-16 20:49:56 TRACE org.testng.internal.Graph - [Graph] ADDING NODE UserTests.testGetUserByName()[pri:2, instance:api.test.UserTests@21ec5d87] 1775487433
+2025-12-16 20:49:56 TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+2025-12-16 20:49:56 TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2025-12-16 20:49:56 TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2025-12-16 20:49:56 TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2025-12-16 20:49:56 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\mnetk\eclipse-workspace\rest_assured_framework\testng0extent.xml
+
+2025-12-16 20:49:57 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 20:49:57 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 20:49:57 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle themefd26doctype
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stylesheet5d8bdoctype
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctstylesheet4257type
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfonts6623type
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfont14d8type
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfills2c6ftype
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfill550ctype
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctborders0d66type
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctborderf935type
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcellxfs1322type
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctxf97f7type
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcellstylexfsa81ftype
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctdxfsb26atype
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle cttablestyles872ftype
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle sstf81fdoctype
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsst44f3type
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctrsta472type
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle workbookec17doctype
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctworkbook83c3type
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheets49fdtype
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheet4dbetype
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle strelationshipid1e94type
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle worksheetf539doctype
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctworksheet530dtype
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcols627ctype
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcola95ftype
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheetdata8408type
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctrowdd39type
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcell842btype
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcellrefe4e0type
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle cthyperlinks6416type
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle cthyperlink0c85type
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stxstringf179type
+2025-12-16 20:49:57 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 20:49:57 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 20:49:57 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 20:49:57 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 20:49:57 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 20:49:57 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcelltypebf95type
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcellstylexfid70c7type
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stnumfmtid76fbtype
+2025-12-16 20:49:57 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctworkbookpr03a5type
+2025-12-16 20:49:57 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 20:49:57 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 20:49:57 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 20:49:57 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 20:49:57 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 20:49:57 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 20:49:57 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 20:49:57 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 20:49:57 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 20:49:57 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 20:49:57 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 20:49:57 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 20:49:57 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 20:49:57 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 20:49:57 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 20:49:57 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 20:49:57 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 20:49:57 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 20:49:57 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 20:49:57 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 20:49:57 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 20:49:57 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 20:49:57 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 20:49:57 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 20:49:57 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 20:49:57 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 20:49:57 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 20:49:57 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 20:49:57 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 20:49:57 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 20:49:57 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 20:49:57 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 20:49:57 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 20:49:57 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 20:49:57 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 20:49:57 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 20:49:57 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 20:49:57 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 20:49:57 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 20:49:57 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 20:49:57 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 20:49:57 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 20:49:58 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 20:49:58 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 20:49:58 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 20:49:58 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 20:49:58 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 20:49:58 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 20:49:58 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 20:49:58 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 20:49:58 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 20:49:58 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 20:49:58 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 20:49:58 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 20:49:58 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 20:49:58 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 20:49:58 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 20:49:58 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 20:49:58 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 20:49:58 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 20:49:58 INFO  api.utilities.TestListener - >>> STARTING TEST: testPostuser
+2025-12-16 20:50:01 INFO  api.utilities.TestListener - ✔ TEST PASSED: testPostuser
+2025-12-16 20:50:01 INFO  api.utilities.TestListener - >>> STARTING TEST: testPostuser
+2025-12-16 20:50:02 INFO  api.utilities.TestListener - ✔ TEST PASSED: testPostuser
+2025-12-16 20:50:02 INFO  api.utilities.TestListener - >>> STARTING TEST: testPostuser
+2025-12-16 20:50:03 INFO  api.utilities.TestListener - ✔ TEST PASSED: testPostuser
+2025-12-16 20:50:03 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 20:50:03 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 20:50:03 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 20:50:03 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 20:50:03 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 20:50:03 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 20:50:03 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 20:50:03 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 20:50:03 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 20:50:03 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 20:50:03 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 20:50:03 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 20:50:03 INFO  api.utilities.TestListener - >>> STARTING TEST: testDeleteUserByName
+2025-12-16 20:50:05 INFO  api.utilities.TestListener - ✔ TEST PASSED: testDeleteUserByName
+2025-12-16 20:50:05 INFO  api.utilities.TestListener - >>> STARTING TEST: testDeleteUserByName
+2025-12-16 20:50:06 INFO  api.utilities.TestListener - ✔ TEST PASSED: testDeleteUserByName
+2025-12-16 20:50:06 INFO  api.utilities.TestListener - >>> STARTING TEST: testDeleteUserByName
+2025-12-16 20:50:07 INFO  api.utilities.TestListener - ✔ TEST PASSED: testDeleteUserByName
+2025-12-16 20:50:07 INFO  api.utilities.TestListener - >>> STARTING TEST: testCreateUser
+2025-12-16 20:50:08 INFO  api.utilities.TestListener - ✔ TEST PASSED: testCreateUser
+2025-12-16 20:50:09 INFO  api.utilities.TestListener - >>> STARTING TEST: testGetUserByName
+2025-12-16 20:50:10 INFO  api.utilities.TestListener - ✔ TEST PASSED: testGetUserByName
+2025-12-16 20:50:10 INFO  api.utilities.TestListener - >>> STARTING TEST: testUpdateUserByName
+2025-12-16 20:50:12 INFO  api.utilities.TestListener - ✔ TEST PASSED: testUpdateUserByName
+2025-12-16 20:50:12 INFO  api.utilities.TestListener - >>> STARTING TEST: testDeleteUserByName
+2025-12-16 20:50:14 INFO  api.utilities.TestListener - ✔ TEST PASSED: testDeleteUserByName
+2025-12-16 20:50:14 INFO  api.utilities.TestListener - >>> STARTING TEST: testCreateUser
+2025-12-16 20:50:15 INFO  api.utilities.TestListener - ✔ TEST PASSED: testCreateUser
+2025-12-16 20:50:15 INFO  api.utilities.TestListener - >>> STARTING TEST: testGetUserByName
+2025-12-16 20:50:17 INFO  api.utilities.TestListener - ✔ TEST PASSED: testGetUserByName
+2025-12-16 20:50:17 INFO  api.utilities.TestListener - >>> STARTING TEST: testUpdateUserByName
+2025-12-16 20:50:20 INFO  api.utilities.TestListener - ✔ TEST PASSED: testUpdateUserByName
+2025-12-16 20:50:20 INFO  api.utilities.TestListener - >>> STARTING TEST: testDeleteUserByName
+2025-12-16 20:50:21 INFO  api.utilities.TestListener - ✔ TEST PASSED: testDeleteUserByName
+2025-12-16 20:50:21 INFO  api.utilities.TestListener - 🏁 ALL TESTS FINISHED for: Test
+2025-12-16 20:50:21 INFO  api.utilities.TestListener - Total Passed: 14
+2025-12-16 20:50:21 INFO  api.utilities.TestListener - Total Failed: 0
+2025-12-16 20:50:21 INFO  api.utilities.TestListener - Total Skipped: 0
+2025-12-16 21:11:45 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\mnetk\eclipse-workspace\rest_assured_framework\testng0extent.xml"
+2025-12-16 21:11:45 TRACE org.testng.internal.Graph - [Graph] ADDING NODE UserTests2.setupData()[pri:0, instance:null] -991665438
+2025-12-16 21:11:45 TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+2025-12-16 21:11:45 TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2025-12-16 21:11:45 TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2025-12-16 21:11:45 TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2025-12-16 21:11:45 TRACE org.testng.internal.Graph - [Graph] ADDING NODE UserTests.setupData()[pri:0, instance:null] 1651425096
+2025-12-16 21:11:45 TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+2025-12-16 21:11:45 TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2025-12-16 21:11:45 TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2025-12-16 21:11:45 TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2025-12-16 21:11:45 TRACE org.testng.internal.Graph - [Graph] ADDING NODE DDTests.testDeleteUserByName(java.lang.String)[pri:2, instance:api.test.DDTests@1601e47] -1077923883
+2025-12-16 21:11:45 TRACE org.testng.internal.Graph - [Graph] ADDING NODE DDTests.testPostuser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.DDTests@1601e47] 1589548580
+2025-12-16 21:11:45 TRACE org.testng.internal.Graph - [Graph] ADDING NODE UserTests2.testUpdateUserByName()[pri:3, instance:api.test.UserTests2@1eba372c] -638393375
+2025-12-16 21:11:45 TRACE org.testng.internal.Graph - [Graph] ADDING NODE UserTests2.testCreateUser()[pri:1, instance:api.test.UserTests2@1eba372c] 1173290608
+2025-12-16 21:11:45 TRACE org.testng.internal.Graph - [Graph] ADDING NODE UserTests2.testDeleteUserByName()[pri:4, instance:api.test.UserTests2@1eba372c] 480728511
+2025-12-16 21:11:45 TRACE org.testng.internal.Graph - [Graph] ADDING NODE UserTests2.testGetUserByName()[pri:2, instance:api.test.UserTests2@1eba372c] 461517528
+2025-12-16 21:11:45 TRACE org.testng.internal.Graph - [Graph] ADDING NODE UserTests.testUpdateUserByName()[pri:3, instance:api.test.UserTests@21ec5d87] -740009822
+2025-12-16 21:11:45 TRACE org.testng.internal.Graph - [Graph] ADDING NODE UserTests.testCreateUser()[pri:1, instance:api.test.UserTests@21ec5d87] 1063682609
+2025-12-16 21:11:45 TRACE org.testng.internal.Graph - [Graph] ADDING NODE UserTests.testDeleteUserByName()[pri:4, instance:api.test.UserTests@21ec5d87] -2010209596
+2025-12-16 21:11:45 TRACE org.testng.internal.Graph - [Graph] ADDING NODE UserTests.testGetUserByName()[pri:2, instance:api.test.UserTests@21ec5d87] 1775487433
+2025-12-16 21:11:45 TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+2025-12-16 21:11:45 TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2025-12-16 21:11:45 TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2025-12-16 21:11:45 TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2025-12-16 21:11:45 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\mnetk\eclipse-workspace\rest_assured_framework\testng0extent.xml
+
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle themefd26doctype
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stylesheet5d8bdoctype
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctstylesheet4257type
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfonts6623type
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfont14d8type
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfills2c6ftype
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfill550ctype
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctborders0d66type
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctborderf935type
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcellxfs1322type
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctxf97f7type
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcellstylexfsa81ftype
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctdxfsb26atype
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle cttablestyles872ftype
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle sstf81fdoctype
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsst44f3type
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctrsta472type
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle workbookec17doctype
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctworkbook83c3type
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheets49fdtype
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheet4dbetype
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle strelationshipid1e94type
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle worksheetf539doctype
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctworksheet530dtype
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcols627ctype
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcola95ftype
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheetdata8408type
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctrowdd39type
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcell842btype
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcellrefe4e0type
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle cthyperlinks6416type
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle cthyperlink0c85type
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stxstringf179type
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcelltypebf95type
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcellstylexfid70c7type
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stnumfmtid76fbtype
+2025-12-16 21:11:46 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctworkbookpr03a5type
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:11:46 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:11:47 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:11:47 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:11:47 INFO  api.utilities.TestListener - >>> STARTING TEST: testPostuser
+2025-12-16 21:11:50 INFO  api.utilities.TestListener - ✔ TEST PASSED: testPostuser
+2025-12-16 21:11:50 INFO  api.utilities.TestListener - >>> STARTING TEST: testPostuser
+2025-12-16 21:11:51 INFO  api.utilities.TestListener - ✔ TEST PASSED: testPostuser
+2025-12-16 21:11:51 INFO  api.utilities.TestListener - >>> STARTING TEST: testPostuser
+2025-12-16 21:11:52 INFO  api.utilities.TestListener - ✔ TEST PASSED: testPostuser
+2025-12-16 21:11:52 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:11:52 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:11:52 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:11:52 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:11:52 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:11:52 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:11:52 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:11:52 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:11:52 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:11:52 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:11:52 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:11:52 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:11:52 INFO  api.utilities.TestListener - >>> STARTING TEST: testDeleteUserByName
+2025-12-16 21:11:54 INFO  api.utilities.TestListener - ✔ TEST PASSED: testDeleteUserByName
+2025-12-16 21:11:54 INFO  api.utilities.TestListener - >>> STARTING TEST: testDeleteUserByName
+2025-12-16 21:11:55 INFO  api.utilities.TestListener - ✔ TEST PASSED: testDeleteUserByName
+2025-12-16 21:11:55 INFO  api.utilities.TestListener - >>> STARTING TEST: testDeleteUserByName
+2025-12-16 21:11:56 INFO  api.utilities.TestListener - ✔ TEST PASSED: testDeleteUserByName
+2025-12-16 21:11:56 INFO  api.utilities.TestListener - >>> STARTING TEST: testCreateUser
+2025-12-16 21:11:58 INFO  api.utilities.TestListener - ✔ TEST PASSED: testCreateUser
+2025-12-16 21:11:58 INFO  api.utilities.TestListener - >>> STARTING TEST: testGetUserByName
+2025-12-16 21:11:59 INFO  api.utilities.TestListener - ✔ TEST PASSED: testGetUserByName
+2025-12-16 21:11:59 INFO  api.utilities.TestListener - >>> STARTING TEST: testUpdateUserByName
+2025-12-16 21:12:01 INFO  api.utilities.TestListener - ✔ TEST PASSED: testUpdateUserByName
+2025-12-16 21:12:01 INFO  api.utilities.TestListener - >>> STARTING TEST: testDeleteUserByName
+2025-12-16 21:12:03 INFO  api.utilities.TestListener - ✔ TEST PASSED: testDeleteUserByName
+2025-12-16 21:12:03 INFO  api.utilities.TestListener - >>> STARTING TEST: testCreateUser
+2025-12-16 21:12:04 INFO  api.utilities.TestListener - ✔ TEST PASSED: testCreateUser
+2025-12-16 21:12:04 INFO  api.utilities.TestListener - >>> STARTING TEST: testGetUserByName
+2025-12-16 21:12:06 INFO  api.utilities.TestListener - ✔ TEST PASSED: testGetUserByName
+2025-12-16 21:12:06 INFO  api.utilities.TestListener - >>> STARTING TEST: testUpdateUserByName
+2025-12-16 21:12:09 INFO  api.utilities.TestListener - ✔ TEST PASSED: testUpdateUserByName
+2025-12-16 21:12:09 INFO  api.utilities.TestListener - >>> STARTING TEST: testDeleteUserByName
+2025-12-16 21:12:10 INFO  api.utilities.TestListener - ✔ TEST PASSED: testDeleteUserByName
+2025-12-16 21:12:10 INFO  api.utilities.TestListener - 🏁 ALL TESTS FINISHED for: Test
+2025-12-16 21:12:10 INFO  api.utilities.TestListener - Total Passed: 14
+2025-12-16 21:12:10 INFO  api.utilities.TestListener - Total Failed: 0
+2025-12-16 21:12:10 INFO  api.utilities.TestListener - Total Skipped: 0
+2025-12-16 21:14:23 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\mnetk\eclipse-workspace\rest_assured_framework\testng0extent.xml"
+2025-12-16 21:14:23 TRACE org.testng.internal.Graph - [Graph] ADDING NODE UserTests2.setupData()[pri:0, instance:null] -991665438
+2025-12-16 21:14:23 TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+2025-12-16 21:14:23 TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2025-12-16 21:14:23 TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2025-12-16 21:14:23 TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2025-12-16 21:14:23 TRACE org.testng.internal.Graph - [Graph] ADDING NODE UserTests.setupData()[pri:0, instance:null] 1651425096
+2025-12-16 21:14:23 TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+2025-12-16 21:14:23 TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2025-12-16 21:14:23 TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2025-12-16 21:14:23 TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2025-12-16 21:14:23 TRACE org.testng.internal.Graph - [Graph] ADDING NODE DDTests.testDeleteUserByName(java.lang.String)[pri:2, instance:api.test.DDTests@1601e47] -1077923883
+2025-12-16 21:14:23 TRACE org.testng.internal.Graph - [Graph] ADDING NODE DDTests.testPostuser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.DDTests@1601e47] 1589548580
+2025-12-16 21:14:23 TRACE org.testng.internal.Graph - [Graph] ADDING NODE UserTests2.testUpdateUserByName()[pri:3, instance:api.test.UserTests2@1eba372c] -638393375
+2025-12-16 21:14:23 TRACE org.testng.internal.Graph - [Graph] ADDING NODE UserTests2.testCreateUser()[pri:1, instance:api.test.UserTests2@1eba372c] 1173290608
+2025-12-16 21:14:23 TRACE org.testng.internal.Graph - [Graph] ADDING NODE UserTests2.testDeleteUserByName()[pri:4, instance:api.test.UserTests2@1eba372c] 480728511
+2025-12-16 21:14:23 TRACE org.testng.internal.Graph - [Graph] ADDING NODE UserTests2.testGetUserByName()[pri:2, instance:api.test.UserTests2@1eba372c] 461517528
+2025-12-16 21:14:23 TRACE org.testng.internal.Graph - [Graph] ADDING NODE UserTests.testUpdateUserByName()[pri:3, instance:api.test.UserTests@21ec5d87] -740009822
+2025-12-16 21:14:23 TRACE org.testng.internal.Graph - [Graph] ADDING NODE UserTests.testCreateUser()[pri:1, instance:api.test.UserTests@21ec5d87] 1063682609
+2025-12-16 21:14:23 TRACE org.testng.internal.Graph - [Graph] ADDING NODE UserTests.testDeleteUserByName()[pri:4, instance:api.test.UserTests@21ec5d87] -2010209596
+2025-12-16 21:14:23 TRACE org.testng.internal.Graph - [Graph] ADDING NODE UserTests.testGetUserByName()[pri:2, instance:api.test.UserTests@21ec5d87] 1775487433
+2025-12-16 21:14:23 TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+2025-12-16 21:14:23 TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+2025-12-16 21:14:23 TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+2025-12-16 21:14:23 TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+2025-12-16 21:14:23 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\mnetk\eclipse-workspace\rest_assured_framework\testng0extent.xml
+
+2025-12-16 21:14:23 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:14:23 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:14:23 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:14:23 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+2025-12-16 21:14:23 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+2025-12-16 21:14:23 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+2025-12-16 21:14:23 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+2025-12-16 21:14:23 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+2025-12-16 21:14:23 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+2025-12-16 21:14:23 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+2025-12-16 21:14:23 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+2025-12-16 21:14:23 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+2025-12-16 21:14:23 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+2025-12-16 21:14:23 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+2025-12-16 21:14:23 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+2025-12-16 21:14:23 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+2025-12-16 21:14:23 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+2025-12-16 21:14:23 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+2025-12-16 21:14:23 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle themefd26doctype
+2025-12-16 21:14:24 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stylesheet5d8bdoctype
+2025-12-16 21:14:24 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctstylesheet4257type
+2025-12-16 21:14:24 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfonts6623type
+2025-12-16 21:14:24 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfont14d8type
+2025-12-16 21:14:24 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfills2c6ftype
+2025-12-16 21:14:24 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfill550ctype
+2025-12-16 21:14:24 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctborders0d66type
+2025-12-16 21:14:24 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctborderf935type
+2025-12-16 21:14:24 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcellxfs1322type
+2025-12-16 21:14:24 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctxf97f7type
+2025-12-16 21:14:24 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcellstylexfsa81ftype
+2025-12-16 21:14:24 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctdxfsb26atype
+2025-12-16 21:14:24 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle cttablestyles872ftype
+2025-12-16 21:14:24 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle sstf81fdoctype
+2025-12-16 21:14:24 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsst44f3type
+2025-12-16 21:14:24 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctrsta472type
+2025-12-16 21:14:24 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle workbookec17doctype
+2025-12-16 21:14:24 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctworkbook83c3type
+2025-12-16 21:14:24 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheets49fdtype
+2025-12-16 21:14:24 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheet4dbetype
+2025-12-16 21:14:24 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle strelationshipid1e94type
+2025-12-16 21:14:24 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle worksheetf539doctype
+2025-12-16 21:14:24 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctworksheet530dtype
+2025-12-16 21:14:24 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcols627ctype
+2025-12-16 21:14:24 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcola95ftype
+2025-12-16 21:14:24 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheetdata8408type
+2025-12-16 21:14:24 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctrowdd39type
+2025-12-16 21:14:24 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcell842btype
+2025-12-16 21:14:24 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcellrefe4e0type
+2025-12-16 21:14:24 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle cthyperlinks6416type
+2025-12-16 21:14:24 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle cthyperlink0c85type
+2025-12-16 21:14:24 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stxstringf179type
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:14:24 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcelltypebf95type
+2025-12-16 21:14:24 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcellstylexfid70c7type
+2025-12-16 21:14:24 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stnumfmtid76fbtype
+2025-12-16 21:14:24 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctworkbookpr03a5type
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:14:24 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:14:24 INFO  api.utilities.TestListener - >>> STARTING TEST: testPostuser
+2025-12-16 21:14:27 INFO  api.utilities.TestListener - ✔ TEST PASSED: testPostuser
+2025-12-16 21:14:27 INFO  api.utilities.TestListener - >>> STARTING TEST: testPostuser
+2025-12-16 21:14:28 INFO  api.utilities.TestListener - ✔ TEST PASSED: testPostuser
+2025-12-16 21:14:28 INFO  api.utilities.TestListener - >>> STARTING TEST: testPostuser
+2025-12-16 21:14:30 INFO  api.utilities.TestListener - ✔ TEST PASSED: testPostuser
+2025-12-16 21:14:30 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:14:30 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:14:30 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:14:30 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:14:30 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:14:30 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:14:30 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:14:30 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:14:30 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:14:30 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-12-16 21:14:30 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-12-16 21:14:30 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2025-12-16 21:14:30 INFO  api.utilities.TestListener - >>> STARTING TEST: testDeleteUserByName
+2025-12-16 21:14:31 INFO  api.utilities.TestListener - ✔ TEST PASSED: testDeleteUserByName
+2025-12-16 21:14:31 INFO  api.utilities.TestListener - >>> STARTING TEST: testDeleteUserByName
+2025-12-16 21:14:33 INFO  api.utilities.TestListener - ✔ TEST PASSED: testDeleteUserByName
+2025-12-16 21:14:33 INFO  api.utilities.TestListener - >>> STARTING TEST: testDeleteUserByName
+2025-12-16 21:14:34 INFO  api.utilities.TestListener - ✔ TEST PASSED: testDeleteUserByName
+2025-12-16 21:14:34 INFO  api.utilities.TestListener - >>> STARTING TEST: testCreateUser
+2025-12-16 21:14:35 INFO  api.utilities.TestListener - ✔ TEST PASSED: testCreateUser
+2025-12-16 21:14:35 INFO  api.utilities.TestListener - >>> STARTING TEST: testGetUserByName
+2025-12-16 21:14:37 INFO  api.utilities.TestListener - ✔ TEST PASSED: testGetUserByName
+2025-12-16 21:14:37 INFO  api.utilities.TestListener - >>> STARTING TEST: testUpdateUserByName
+2025-12-16 21:14:40 INFO  api.utilities.TestListener - ✔ TEST PASSED: testUpdateUserByName
+2025-12-16 21:14:40 INFO  api.utilities.TestListener - >>> STARTING TEST: testDeleteUserByName
+2025-12-16 21:14:42 INFO  api.utilities.TestListener - ✔ TEST PASSED: testDeleteUserByName
+2025-12-16 21:14:42 INFO  api.utilities.TestListener - >>> STARTING TEST: testCreateUser
+2025-12-16 21:14:44 INFO  api.utilities.TestListener - ✔ TEST PASSED: testCreateUser
+2025-12-16 21:14:44 INFO  api.utilities.TestListener - >>> STARTING TEST: testGetUserByName
+2025-12-16 21:14:46 INFO  api.utilities.TestListener - ✔ TEST PASSED: testGetUserByName
+2025-12-16 21:14:46 INFO  api.utilities.TestListener - >>> STARTING TEST: testUpdateUserByName
+2025-12-16 21:14:49 INFO  api.utilities.TestListener - ✔ TEST PASSED: testUpdateUserByName
+2025-12-16 21:14:49 INFO  api.utilities.TestListener - >>> STARTING TEST: testDeleteUserByName
+2025-12-16 21:14:51 INFO  api.utilities.TestListener - ✔ TEST PASSED: testDeleteUserByName
+2025-12-16 21:14:51 INFO  api.utilities.TestListener - 🏁 ALL TESTS FINISHED for: Test
+2025-12-16 21:14:51 INFO  api.utilities.TestListener - Total Passed: 14
+2025-12-16 21:14:51 INFO  api.utilities.TestListener - Total Failed: 0
+2025-12-16 21:14:51 INFO  api.utilities.TestListener - Total Skipped: 0
