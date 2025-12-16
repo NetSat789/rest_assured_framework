@@ -66,11 +66,15 @@ public class ExtentReportManager implements ITestListener {
     @Override
     public void onTestSuccess(ITestResult result) {
         test.get().pass("Test Passed");
+        test.get().assignAuthor("Satish Netke");
+        test.get().assignCategory("Regression");
     }
 
     @Override
     public void onTestFailure(ITestResult result) {
         test.get().fail(result.getThrowable());
+        test.get().assignAuthor("Satish Netke");
+        test.get().assignCategory("Regression");
     }
 
     @Override
